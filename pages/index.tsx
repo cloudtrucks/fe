@@ -9,7 +9,10 @@ const load = {
   totalDistance: '398 mi',
   weight: 'Max. 42500 lb',
   broker: 'TQL',
-  rateEstimate: '$1,194 - $1,624',
+  rate: {
+    min: 1194,
+    max: 1624,
+  },
   brokerNotes: '[pick-up] CANNOT ARRIVE EARLY MUST PU AT SCHEDULED TIME No Reefers Allowed.',
 }
 
