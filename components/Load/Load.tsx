@@ -9,7 +9,10 @@ export interface ILoad {
   totalDistance: string
   weight: string
   broker: string
-  rateEstimate: string
+  rate: {
+    min: number
+    max: number
+  }
   brokerNotes: string
 }
 
